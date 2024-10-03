@@ -1,5 +1,5 @@
 name: Deploy Reactjs
-on: push # trigger
+on: [push, workflow_dispatch] # trigger
 jobs:
   test: # first job
     runs-on: ubuntu-latest # environment
